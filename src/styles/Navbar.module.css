@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #e9e9eb;
+    justify-content: space-between;
+    padding: 0.8rem;  
+}
+
+.pages {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.arrow:hover {
+    color: #444444;
+    cursor: pointer;
+}

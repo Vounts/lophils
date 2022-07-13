@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(107, 107, 107);
+    border-top: 1px solid #e9e9eb;;
+    padding: 1%;
+    cursor: default;
+}
+
+
+.date {
+    font-size: 15px;
+}
+.content {
+    padding: 2% 1rem 2% 0;
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.taglist {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.additional {
+    font-size: 14px;
+}
+
+.sender {
+    font-weight: bold;
+}
+
+.email {
+    color: #165ad8;
+}

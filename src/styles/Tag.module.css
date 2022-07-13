@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 6px;
+    border: 1px  solid ;
+    color: #07aae0;
+    background-color: #F3FAFB;
+    cursor: pointer;
+    margin: 0 0.2rem 0 0.2rem;
+}
+
+.box:hover {
+    color:#9fd3e4;
+}
+
