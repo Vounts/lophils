@@ -18,6 +18,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+
+# Note
+To save data in local storage click the save button.
+
 # Functionalities
 
 ✔️ 1. 100 dummy email records
@@ -37,7 +41,17 @@ email
 
 ✔️ 3. If the Delete button is clicked, the checked item/s should be removed from the list
 
+# Added feature
+
+1. Reset Button for refetching all 100 dummy records
+2. Save Button saves the data in localstorage
+
+
 # Recommendations
 
 1. Implement pagination
+2. Implement filtering of data
+3. Implement mobile design
+
+
 
