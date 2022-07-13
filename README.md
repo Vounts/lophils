@@ -32,7 +32,7 @@ iv. Receiver
 v. Content
 vi. Tags
 
-Added keys = {attachments, checked email}
+Added keys = {attachments, checked}
 At dummy.json
 
 ✔️ 2. Display the items with the given layout
