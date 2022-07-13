@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-    if (stored.length > 0) {
+    if (stored?.length > 0) {
       setEmails(
         stored.sort((a, b) => {
           return new Date(b.date) - new Date(a.date);
@@ -74,10 +74,10 @@ function App() {
       <div className={styles.row}>
         <div className={styles.unread}>unread</div>
         <div className={styles.totalUnread}>
-          {emails.length} <MdKeyboardArrowDown />
+          {emails?.length} <MdKeyboardArrowDown />
         </div>
       </div>
-      {emails.length > 0 ? (
+      {emails?.length > 0 ? (
         <EmailList
           toggleCheck={toggleCheck}
           checkedAll={CheckedAll}
